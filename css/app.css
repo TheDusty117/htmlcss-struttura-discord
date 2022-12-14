@@ -31,8 +31,26 @@ corrispettivo visivo */
 
 .debug .container {
   padding: 20px;
+  background-color: gold;
   border: 4px dashed black;
 }
 
 /* (su) creo un bordo tratteggiato per visualizzare
 la forma del mio primo flex-container. */
+
+.debug .col {
+  border: 4px dashed black;
+}
+
+
+.row {
+  display: flex;
+  /* flex-wrap: wrap; ????? *****/
+}
+
+header .row {
+  justify-content: space-between;
+}
+
+/* devi lavorare sulla direzione per creare tre sezioni
+diverse sul giallo */
