@@ -8,7 +8,7 @@ img {
   max-width: 100%;
 }
 
-.section {
+section {
   padding: 48px 0;
 }
 
@@ -72,6 +72,11 @@ che occupi il rimanente */
 
 /***** SVILUPPO CONTENUTO PAGINA *****/
 
+/* CREATA UNA SECONDA SERIE DI CLASSI PER LA VERSIONE
+CON SFONDO GRIGIO */
+
+/* SEZIONI CON ASIDE E MAIN */
+
 .debug .white {
   min-height: 600px;
   background-color: white;
@@ -99,3 +104,12 @@ che occupi il rimanente */
 .type-reverse {
   flex-direction: row-reverse;
 }
+
+/* SEZIONE SFONDO GRIGIO QUADRATO VERDE */
+
+.row .green-square {
+  background-color: green;
+  flex-basis: 100%;
+  min-height: 1000px;
+}
+
