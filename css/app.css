@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+.section {
+  padding: 48px 0;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* regole di reset inserite */
+
+.debug header {
+  min-height: 40px;
+  background-color: azure;
+  padding: 20px
+}
+
+/* (su) visualizzo il colore e formato minimo
+dell'header per poter lavorare con un
+corrispettivo visivo */
+
+.debug .container {
+  padding: 20px;
+  border: 4px dashed black;
+}
+
+/* (su) creo un bordo tratteggiato per visualizzare
+la forma del mio primo flex-container. */
