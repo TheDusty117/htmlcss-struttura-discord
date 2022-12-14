@@ -12,7 +12,8 @@ img {
   padding: 48px 0;
 }
 
-.container {
+.container,
+.container1 {
   max-width: 1000px;
   margin: 0 auto;
 }
@@ -71,19 +72,24 @@ che occupi il rimanente */
 
 /***** SVILUPPO CONTENUTO PAGINA *****/
 
-.debug .container-aside-main {
-  max-width: 1000px;
-  padding: 5px;
-  background-color: lightgrey;
-  border: 4px dashed black;
+.debug section {
+  min-height: 600px;
+  background-color: gray;
+  padding: 20px;
 }
 
 .row .aside {
+  flex-basis: 70%;
   background-color: lightskyblue;
-  flex-basis: 60%;
+  min-height: 500px;
 }
 
-.row .main-content {
+.row .main {
+  flex-basis: 30%;
   background-color: lightpink;
-  flex-basis: 40%;
+  min-height: 500px;
+}
+
+.type-reverse {
+  flex-direction: row-reverse;
 }
