@@ -13,15 +13,15 @@ img {
 }
 
 .container {
-  max-width: 900px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
 /* regole di reset inserite */
 
 .debug header {
-  min-height: 40px;
-  background-color: azure;
+  min-height: 10px;
+  background-color: rgb(173, 224, 224);
   padding: 20px
 }
 
@@ -30,7 +30,7 @@ dell'header per poter lavorare con un
 corrispettivo visivo */
 
 .debug .container {
-  padding: 20px;
+  padding: 5px;
   background-color: gold;
   border: 4px dashed black;
 }
@@ -54,3 +54,16 @@ header .row {
 
 /* devi lavorare sulla direzione per creare tre sezioni
 diverse sul giallo */
+
+.row .col {
+  flex-basis: 20%;
+}
+
+.link {
+  flex-grow: 1;
+  text-align: center;
+}
+
+/* creata flex basis per dare il 20% a logo e login,
+poi incrementata parte centrale dei vari link in modo 
+che occupi il rimanente */
