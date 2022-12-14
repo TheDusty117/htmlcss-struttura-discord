@@ -13,7 +13,8 @@ section {
 }
 
 .container,
-.container1 {
+.container1,
+.container-slate1 {
   max-width: 1000px;
   margin: 0 auto;
 }
@@ -119,4 +120,22 @@ CON SFONDO GRIGIO */
   min-height: 600px;
   background-color: darkslategrey;
   padding: 20px;
+}
+
+.colmain,
+.colsecondary {
+  min-height: 700px;
+}
+
+.colmain {
+  background-color: salmon;
+  flex-basis: ;
+}
+
+.colsecondary {
+  background-color: teal;
+}
+
+.row .colmain {
+  flex-basis: 40%;
 }
