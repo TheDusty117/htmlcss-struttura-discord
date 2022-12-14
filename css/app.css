@@ -72,6 +72,7 @@ che occupi il rimanente */
 /***** SVILUPPO CONTENUTO PAGINA *****/
 
 .debug .container-aside-main {
+  max-width: 1000px;
   padding: 5px;
   background-color: lightgrey;
   border: 4px dashed black;
@@ -79,8 +80,10 @@ che occupi il rimanente */
 
 .row .aside {
   background-color: lightskyblue;
+  flex-basis: 60%;
 }
 
 .row .main-content {
   background-color: lightpink;
+  flex-basis: 40%;
 }
