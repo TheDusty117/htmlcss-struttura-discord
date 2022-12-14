@@ -45,6 +45,7 @@ la forma del mio primo flex-container. */
 
 .row {
   display: flex;
+  justify-content: center;
   /* flex-wrap: wrap; ????? *****/
 }
 
@@ -67,3 +68,19 @@ diverse sul giallo */
 /* creata flex basis per dare il 20% a logo e login,
 poi incrementata parte centrale dei vari link in modo 
 che occupi il rimanente */
+
+/***** SVILUPPO CONTENUTO PAGINA *****/
+
+.debug .container-aside-main {
+  padding: 5px;
+  background-color: lightgrey;
+  border: 4px dashed black;
+}
+
+.row .aside {
+  background-color: lightskyblue;
+}
+
+.row .main-content {
+  background-color: lightpink;
+}
