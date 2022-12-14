@@ -20,6 +20,8 @@ section {
   margin: 0 auto;
 }
 
+
+
 /* regole di reset inserite */
 
 .debug header {
@@ -69,6 +71,28 @@ diverse sul giallo */
   text-align: center;
 }
 
+/* sezione quadrato fucsia ****/
+
+
+.debug .blu {
+  min-height: 300px;
+  background-color: blue;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.row .fuchsia-square {
+  background-color: fuchsia;
+  flex-basis: 100%;
+  min-height: 300px;
+  min-width: 700px;
+}
+
+
+
+
+
 /* creata flex basis per dare il 20% a logo e login,
 poi incrementata parte centrale dei vari link in modo 
 che occupi il rimanente */
@@ -79,6 +103,8 @@ che occupi il rimanente */
 CON SFONDO GRIGIO */
 
 /* SEZIONI CON ASIDE E MAIN */
+
+
 
 .debug .white {
   min-height: 600px;
@@ -131,7 +157,7 @@ CON SFONDO GRIGIO */
 
 .colmain {
   background-color: salmon;
-  flex-basis: ;
+
 }
 
 .colsecondary {
