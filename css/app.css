@@ -113,3 +113,10 @@ CON SFONDO GRIGIO */
   min-height: 1000px;
 }
 
+/* SEZIONE ELEMENTI INCOLONNATI SFONDO SLATE */
+
+.debug .slate {
+  min-height: 600px;
+  background-color: darkslategrey;
+  padding: 20px;
+}
