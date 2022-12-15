@@ -92,7 +92,6 @@ diverse sul giallo */
   margin: 0 auto;
   max-width: 450px;
 }
-}
 
 
 
@@ -126,6 +125,7 @@ CON SFONDO GRIGIO */
   flex-basis: 60%;
   background-color: lightskyblue;
   min-height: 500px;
+  background-image: url(/img/item1.svg);
 }
 
 .row .main {
@@ -195,3 +195,4 @@ ad aggiungere una unordered LIST, con tutti i
 list item, questo ci serve per disporre il tutto
 in verticale, ed anche perche pensandoci,
 sono alla fine una lista gli elementi nel footer. */
+
