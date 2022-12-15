@@ -78,8 +78,7 @@ diverse sul giallo */
   min-height: 300px;
   background-color: blue;
   padding: 20px;
-  display: flex;
-  justify-content: center;
+  
 }
 
 .row .fuchsia-square {
@@ -89,6 +88,10 @@ diverse sul giallo */
   min-width: 700px;
 }
 
+.container-blu {
+  display: flex;
+  justify-content: center;
+}
 
 
 
@@ -185,3 +188,9 @@ CON SFONDO GRIGIO */
   background-color: pink;
   text-align: center;
 }
+
+/* all'intero della prima parte del footer andremo
+ad aggiungere una unordered LIST, con tutti i
+list item, questo ci serve per disporre il tutto
+in verticale, ed anche perche pensandoci,
+sono alla fine una lista gli elementi nel footer. */
