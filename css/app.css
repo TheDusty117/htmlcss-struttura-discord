@@ -85,12 +85,13 @@ diverse sul giallo */
   background-color: fuchsia;
   flex-basis: 100%;
   min-height: 300px;
-  min-width: 700px;
+  min-width: ;
 }
 
 .container-blu {
-  display: flex;
-  justify-content: center;
+  margin: 0 auto;
+  max-width: 450px;
+}
 }
 
 
