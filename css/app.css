@@ -130,7 +130,7 @@ CON SFONDO GRIGIO */
   min-height: 500px;
 }
 
-.type-reverse {
+.row-reverse {
   flex-direction: row-reverse;
 }
 
