@@ -4,6 +4,19 @@
   box-sizing: border-box;
 }
 
+
+/* FONT SPECS */
+p {
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 35px;
+}
+
+
+/* FINE FONT SPECS */
+
 img {
   max-width: 100%;
 }
@@ -81,11 +94,17 @@ diverse sul giallo */
   
 }
 
+/* immagine background prima sezione */
+.blu {
+  background: url(../img/jumbo.png);
+  background-size: cover;
+}
+
 .row .fuchsia-square {
   background-color: fuchsia;
   flex-basis: 100%;
   min-height: 300px;
-  min-width: ;
+  text-align: center;
 }
 
 .container-blu {
@@ -123,9 +142,14 @@ CON SFONDO GRIGIO */
 
 .row .aside {
   flex-basis: 60%;
-  background-color: lightskyblue;
+  /* background-color: lightskyblue; */
   min-height: 500px;
   background-image: url(/img/item1.svg);
+}
+
+/* AGGIUNTA IMMAGINI DEGLI ASIDE */
+
+.col-aside1 {  
 }
 
 .row .main {
